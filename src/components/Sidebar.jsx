@@ -20,7 +20,8 @@ const Sidebar = () => {
 
   return (
     <div className="w-1/5  p-4 shadow-lg flex flex-col justify-between relative">
-      <ul className="space-y-2 overflow-y-auto flex-grow">
+      <ul className="space-y-8 sm:space-y-2 overflow-y-auto flex-grow">
+
         <li>
           <Link
             to="/dashboard"
@@ -42,7 +43,7 @@ const Sidebar = () => {
                 : "text-gray-700 hover:text-blue-700"
             }`}
           >
-            <FaHome className="mr-2" /> Portfolio
+            <FaHome className="mr-2" /> Dashboard
           </Link>
         </li>
         <li>
@@ -137,4 +138,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Sidebar;                                                              
