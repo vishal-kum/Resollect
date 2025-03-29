@@ -12,7 +12,7 @@ const PortfolioTable = () => {
   ];
 
   return (
-    <div className="p-4 bg-white shadow-md rounded-lg relative">
+    <div className="p-12 bg-white shadow-md rounded-lg relative">
       {/* Tabs Section */}
       <h3 className="font-extrabold font-size" >Portfolio</h3>
       <div className="flex overflow-x-auto border-b border-gray-300 space-x-4">

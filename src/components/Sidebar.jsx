@@ -19,7 +19,7 @@ const Sidebar = () => {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <div className="w-1/5  p-4 shadow-lg flex flex-col justify-between relative">
+    <div className="w-1/5  p-12 shadow-lg flex flex-col justify-between relative">
       <ul className="space-y-8 sm:space-y-2 overflow-y-auto flex-grow">
 
         <li>
