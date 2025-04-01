@@ -70,7 +70,7 @@ const PortfolioTable = () => {
 
       {/* Upload Document Form */}
       {showUploadForm && (
-          <div className="fixed top-12 right-0 h-full w-[30%] bg-white shadow-lg p-6 border-l border-gray-300 flex flex-col">
+          <div className="fixed top-20 right-0 h-full w-[30%] bg-white shadow-lg p-6 border-l border-gray-300 flex flex-col">
           {/* Close Button */}
           <button className="self-end text-gray-600 hover:text-red-500" onClick={() => setShowUploadForm(false)}>
             <FaTimes size={20} />
